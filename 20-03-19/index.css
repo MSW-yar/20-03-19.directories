@@ -1,0 +1,27 @@
+@import './style/footer.css';
+@import './style/heading.css';
+@import './style/main.css';  /*jo akir mein import wh executing on previous*/
+@import url('https://fonts.googleapis.com/css?family=Margarine');    /* importing the font form google fonts */
+
+body{
+    --shery:#68686800;  /* variable define kia jidhr use krna hai hence asani k liye variable use kia hai.*/
+    --adeel:30px;
+    --f: 'Margarine', cursive;
+}
+p{
+    background:var(--shery);  /* methd of calling the variable.*/
+    font-size: var(--adeel);
+    font-family:var(--f);
+}
+span:after {
+    content: 'chchchchchchchchchchchchcchhchcchchchchu';
+    font-family: var(--f);
+    background:var(--shery);
+
+}
+span:before{
+    content: 'jajajjaajajajajaj';
+    font-family:var(--f);
+    background:var(--shery);
+}
+
